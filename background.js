@@ -27,7 +27,7 @@ async function runSync() {
     // 1. Get configurations from storage
     const { config } = await chrome.storage.local.get(['config']);
     const customSubdomain = config?.subdomain?.trim();
-    const apiUrl = config?.apiUrl?.trim() || 'https://ross008-n8n.hf.space/form/94255bd7-8f4a-44a4-b101-12b82b17a8b0';
+    const apiUrl = config?.apiUrl?.trim() || 'https://linatai008-n8n.hf.space/form/79319c3e-265d-4a25-a8c0-6e737bdfa53f';
     
     if (!customSubdomain) {
       await logToStorage('error', 'Sync failed: Feishu subdomain is not configured. Please enter your subdomain in settings.');
@@ -127,7 +127,7 @@ chrome.runtime.onInstalled.addListener(async (details) => {
     await chrome.storage.local.set({
       config: {
         subdomain: '',
-        apiUrl: 'https://ross008-n8n.hf.space/form/94255bd7-8f4a-44a4-b101-12b82b17a8b0'
+        apiUrl: 'https://linatai008-n8n.hf.space/form/79319c3e-265d-4a25-a8c0-6e737bdfa53f'
       }
     });
   }

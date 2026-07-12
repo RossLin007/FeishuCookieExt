@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // 1. Populate configuration fields
       const config = data.config || {};
       subdomainInput.value = config.subdomain || '';
-      apiUrlInput.value = config.apiUrl || 'https://ross008-n8n.hf.space/form/94255bd7-8f4a-44a4-b101-12b82b17a8b0';
+      apiUrlInput.value = config.apiUrl || 'https://linatai008-n8n.hf.space/form/79319c3e-265d-4a25-a8c0-6e737bdfa53f';
 
       // 2. Display subdomain status
       if (config.subdomain) {

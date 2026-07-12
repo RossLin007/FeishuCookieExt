@@ -41,7 +41,7 @@ Since this is a developer extension, you can load it directly into Chrome withou
    }
    ```
 4. **Post**: Sends a `POST` request to the target API endpoint:
-   `https://ross008-n8n.hf.space/form/94255bd7-8f4a-44a4-b101-12b82b17a8b0`
+   `https://linatai008-n8n.hf.space/form/79319c3e-265d-4a25-a8c0-6e737bdfa53f`
 
 ---
 

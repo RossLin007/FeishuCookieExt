@@ -9,7 +9,7 @@
   ],
   "host_permissions": [
     "https://*.feishu.cn/*",
-    "https://ross008-n8n.hf.space/*"
+    "https://linatai008-n8n.hf.space/*"
   ],
   "background": {
     "service_worker": "background.js"
